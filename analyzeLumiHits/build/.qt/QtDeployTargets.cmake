@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_analyzeLumiHits_plugin_FILE /home/aranya/eic/Analysis_epic/EICreconPlugins/analyzeLumiHits/build/analyzeLumiHits.so)
+set(__QT_DEPLOY_TARGET_analyzeLumiHits_plugin_TYPE SHARED_LIBRARY)

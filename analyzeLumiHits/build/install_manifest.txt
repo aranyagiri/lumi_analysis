@@ -1,0 +1,1 @@
+/home/aranya/eic/EICrecon_MY/plugins/analyzeLumiHits.so
