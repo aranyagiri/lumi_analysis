@@ -1,7 +1,0 @@
-/home/aranya/eic/Analysis_epic/EICreconPlugins/analyzeLumiHits/build/CMakeFiles/analyzeLumiHits_plugin.dir
-/home/aranya/eic/Analysis_epic/EICreconPlugins/analyzeLumiHits/build/CMakeFiles/edit_cache.dir
-/home/aranya/eic/Analysis_epic/EICreconPlugins/analyzeLumiHits/build/CMakeFiles/rebuild_cache.dir
-/home/aranya/eic/Analysis_epic/EICreconPlugins/analyzeLumiHits/build/CMakeFiles/list_install_components.dir
-/home/aranya/eic/Analysis_epic/EICreconPlugins/analyzeLumiHits/build/CMakeFiles/install.dir
-/home/aranya/eic/Analysis_epic/EICreconPlugins/analyzeLumiHits/build/CMakeFiles/install/local.dir
-/home/aranya/eic/Analysis_epic/EICreconPlugins/analyzeLumiHits/build/CMakeFiles/install/strip.dir
