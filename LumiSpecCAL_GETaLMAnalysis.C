@@ -1,3 +1,6 @@
+# Author: Aranya Giri
+# Description: This program analyze general EICrecon output to perform PSCAL study.
+
 #include "LumiSpecCAL.h"
 
 #include "TFile.h"
