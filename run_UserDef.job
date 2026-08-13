@@ -1,0 +1,27 @@
+universe        = vanilla
+notification    = Never
+
+getenv          = False
+
+executable      = run_eic.csh
+arguments       = ./run_UserDef_reco.sh $(ProcID)
+
+transfer_executable = True
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+# Add your ROOT macro if not on worker nodes
+transfer_input_files = run_UserDef_reco.sh, LumiSpecCAL.h, LumiSpecCAL_GETaLMAnalysis.C, lumi_particles_Acceptance.cxx
+#transfer_input_files = run_UserDef_reco.sh, LumiSpecCAL.h, LumiSpecCAL_GETaLMAnalysis.C, lumi_particles_Resolution.cxx
+
+Requirements = (CPU_Speed >=2)
+
+log     = /gpfs/mnt/gpfs02/eic/aranya/logs/job_$(Process).log
+output  = /gpfs/mnt/gpfs02/eic/aranya/logs/job_$(Process).out
+error   = /gpfs/mnt/gpfs02/eic/aranya/logs/job_$(Process).err
+
+request_cpus    = 1
+request_memory  = 5 GB
+request_disk    = 10 GB
+
+queue 20
