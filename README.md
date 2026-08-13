@@ -1,3 +1,5 @@
+Both are different method, first one is used for personalised EICrecon analysis code, second one uses general EICrecon output.
+
 1. To use analyzeLumiHits
 
 cmake -S analyzeLumiHits -B analyzeLumiHits/build
