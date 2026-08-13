@@ -10,7 +10,7 @@ NOTE : The second command should be executed after each modifications, the first
 
 2. To perform lumi analysis in BNL-SDCC
 
-a. lumi_particles_Acceptance.cxx - to generate particle's HepMC files.
+a. lumi_particles_Acceptance.cxx - to generate particle's HepMC files for full simulation.
 b. run_UserDef_reco.sh performs the DD4hep simulation.
 c. LumiSpecCAL_GETaLMAnalysis.C and LumiSpecCAL.h - analysis code 
   1. CAL energy and position resolution, sampling fraction.
@@ -18,3 +18,4 @@ c. LumiSpecCAL_GETaLMAnalysis.C and LumiSpecCAL.h - analysis code
   3. Acceptance of PSCAL's
   4. Tracker's hits are used as of now, need a general EICrecon update to get rec. hits.
 d. condor_submit run_UserDef.job
+e. lumi_particles_Resolution.cxx - to generate particle's HepMC files for CAL standalone simulation.
