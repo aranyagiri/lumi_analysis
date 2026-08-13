@@ -1,3 +1,6 @@
+# Author: Aranya Giri
+# Description: Parameters used in LumiSpecCAL_GETaLMAnalysis.C code.
+
 #ifndef LUMISPECCAL_H
 #define LUMISPECCAL_H
 
